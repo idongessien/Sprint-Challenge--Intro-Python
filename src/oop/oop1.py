@@ -17,3 +17,26 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+# 
+''' Base Class Here '''
+class Vehicle:
+    print('pass')
+
+class GroundVehicle(Vehicle):
+    print('pass')
+
+class Car(GroundVehicle):
+    print('pass')
+
+class Motorcycle(GroundVehicle):
+    print('pass')
+
+class FlightVehicle(Vehicle):
+    print('pass')
+
+class Airplane(FlightVehicle):
+    print('pass')
+    
+class Starship(FlightVehicle):
+    print('pass')
+
